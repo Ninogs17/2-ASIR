@@ -50,7 +50,7 @@ function buscar($text1,$text2){
     }
 
         else {
-            print "La palabra no esta en el texto";
+            print "La palabra no esta e el texto";
         }
     
     
