@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+
+<form action="practica1-examen.php" method="post" target="_blank"> 
+    <fieldset>
+        <legend>Conversor de numeros</legend>
+
+        <label>Opcion 1: Numero concreto</label><br>
+        <input type="text" name="operando1" required/>
+        <br><br><br>
+        <label>Opcion 2: Numero aleatorio NOTA: El rango de numero es de 0 a 2048</label><br>
+        <label>Seleccione una conversion</label><br>
+        
+       
+
+        <select name="operador">
+
+            <option value="Decbin">Decimal abinario</option>
+            <option value="Decoct">Decimal octal</option>
+            <option value="Dechex">Decimal hexadecimal</option>
+            <option value="Bindec">Binario decimal</option>
+            <option value="Ocdec">Octal decimal</option>
+            <option value="Hexdec">Hexadecimal decimal</option>
+        </select>
+
+        <input type="submit" value="Realizar conversion"/> 
+            <input type="Reset" value="Restablecer valores"/> 
+           
+
+    </form>
+
+</body>
+</html>

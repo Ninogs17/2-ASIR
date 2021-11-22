@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+
+<form action="Vuelo.php" method="post" target="_blank"> 
+
+<fieldset>
+    <legend>Gestion de vuelos</legend>
+    
+    <fieldset>
+        <legend>Vuelo 1</legend>
+    <label>Código</label><br>
+    <input type="text" name="vuelo1[codigo1]" required/>
+    <br>
+    <label>Ciudad Origen</label><br>
+    <input type="text" name="vuelo1[Ciudadorigen1]" required/>
+    <br>
+    <label>Ciudad Destino</label><br>
+    <input type="text" name="vuelo1[Ciudaddestino1]" required/>
+    <br>
+    <label>Precio</label><br>
+    <input type="text" name="vuelo1[Precio1]" required/>
+    <br>
+    <label>Fecha Salida</label><br>
+    <input type="date" name="vuelo1[Fechasalida1]" required/>
+    <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Vuelo 2</legend>
+    <label>Código</label><br>
+    <input type="text" name="vuelo2[codigo2]" required/>
+    <br>
+    <label>Ciudad Origen</label><br>
+    <input type="text" name="vuelo2[Ciudadorigen2]" required/>
+    <br>
+    <label>Ciudad Destino</label><br>
+    <input type="text" name="vuelo2[Ciudaddestino2]" required/>
+    <br>
+    <label>Precio</label><br>
+    <input type="text" name="vuelo2[Precio2]" required/>
+    <br>
+    <label>Fecha Salida</label><br>
+    <input type="date" name="vuelo2[Fechasalida2]" required/>
+    <br>
+</fieldset>
+
+        <fieldset>
+            <legend>Herramientas</legend>
+            <label>Selección</label></br>
+              <select name="opciones">
+
+            <option value="unir">Une Vuelos</option>
+            <option value="diferencia">Diferencia entre vuelos</option>
+            <option value="ordenar">Ordena vuelos</option>
+            <option value="informacion">informacion comun</option>
+        </select>
+    </fieldset>
+</fieldset>
+        
+            <input type="submit" value="Enviar"/> 
+            <input type="Reset" value="Reset"/> 
+           
+
+
+
+
+
+ 
+</form>
+
+</body>
+</html>
